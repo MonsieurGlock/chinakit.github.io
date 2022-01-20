@@ -5,8 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        body{
+            background-color: #fbfbfb;
+        }
+        .container{
+            font-family: 'Montserrat', sans-serif;
+            margin: 60px auto;
+            text-align: center;
+            /* border: 1px black solid; */
+            width: fit-content;
+            border-radius: 5px;
+            background-color: #fff;
+            overflow: hidden;
+            box-shadow: 0 24px 40px 0 rgba(0,0,0,0.16)
+        }
+        .name{
+            padding-top: 20px;
+        }
+        .contact{
+            text-decoration: none;
+            padding: 25px 0px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            padding: 0px 20px;
+        }
+        a:hover{
+            color: rgb(225, 185, 7);
+        }
+        h3{
+            color: rgb(247, 208, 80);
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello</h1>
+    <div class="container">
+        <div class="profile-image">
+            <img src="Sawaree.jpg">
+        </div>
+        <div class="name">
+            <h3>Chinakit Pinclay</h3>
+        </div>
+        <div class="contact">
+            <a href="https://www.facebook.com/chinakit.pinclay/">Facebook</a>
+            <a href="https://www.instagram.com/monsieur_glock/">Instagram</a>
+            <a href="https://github.com/MonsieurGlock">Github</a>
+        </div>
+    </div>
 </body>
 </html>
